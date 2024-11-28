@@ -1,1 +1,1 @@
-git@github.com:Merosque/ono-tebe-nado.git
+https://github.com/Merosque/ono-tebe-nado
