@@ -1,1 +1,17 @@
 /* место для вашего кода */
+.header__links-list {
+  list-style: circle;
+} 
+
+.header__links-list-item_no-bullet {
+  list-style: none;
+} 
+
+.header__logo-image {
+  display: block;
+  width: 130px;
+  height: 105px;
+}
+
+
+
