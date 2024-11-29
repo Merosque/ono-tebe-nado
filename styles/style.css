@@ -94,7 +94,7 @@
 
 .cover__description {
   position: absolute; 
-  right: 50px;
+  right: 50px;  
   bottom: 50px;
   left: auto;
   z-index: 1;
@@ -135,7 +135,7 @@
   font-size: 40px;
 }
 .lots {
-  position:relative;
+  position: relative;
   top: 179px; 
   left: 24px;
   z-index: 1;
@@ -223,4 +223,47 @@ font-size: 20px;
   margin-top: 30px;
   margin-left: 40px;
   font-size: 20px;
+}
+
+.about {
+  display: grid;
+  width: 1052px;
+  height: 595px;
+  grid-template-columns: 334px 1fr;
+  grid-template-rows: 1fr;
+  gap: 25px;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+  top: 177px;   
+  left: 24px; 
+}
+
+.about__logo {
+display: flex;
+padding-top: 120px;
+justify-content: center;
+}
+
+.about__logo-image {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 240px;
+  background: black;
+  border: 0;
+  border-radius: 50%;
+}
+
+.about__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 20px;
+  gap: 24px;  
+}
+
+.about__title {
+  text-transform: uppercase;
 }
